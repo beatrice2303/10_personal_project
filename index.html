@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Prime-number-Checker></Prime-number-Check></title>
+    <title>Random-Password-Generator</Random-Password-Generator></title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
-        <h1>Prime Number Checker</h1>
-        <input type="number" id="numberInput" placeholder="Enter a number">
-        <button id="checkButton">Check</button>
-        <p id="resultMessage">This is a prime number</p>
-       
-
-    </div>
-
-    <script src="script.js"></script>
+        <div class="container_random_password">
+    <h1>Generate a <span id="password"><br>Random Password</span></h1>
+    <div class="display">
+   
+    <input type="text"  id="password" placeholder="password"> 
+    <i class="fas fa-clipboard" id="copy"></i>
+</div>
+<button id="generator-button">Generate Password</button>
+</div>
+   
+    
+</div>
+   <script src="script1.js"></script>
 </body>
 </html>
